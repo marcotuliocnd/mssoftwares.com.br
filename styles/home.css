@@ -50,7 +50,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 500px;
+  min-height: 500px;
 }
 
 #servicos h2 {
@@ -87,7 +87,21 @@ body {
   background: rgb(19,56,124);
   background: radial-gradient(circle, rgba(19,56,124,1) 0%, rgba(19,56,124,1) 50%, rgba(33,37,72,1) 100%);
   color: #fff;
-  height: 500px;
+  min-height: 500px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+}
+
+.testimonial-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 #relatos h2 {
@@ -98,32 +112,13 @@ body {
   font-size: 1rem;
 }
 
-#relatos .testimonials {
-  margin-top: 2rem;
-}
-
-#relatos .testimonials .testimonial {
-  display: flex;
-
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0.6rem 0;
-
-  min-height: 150px;
-
-  border-radius: 12.5px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
-  background: #fff;
-  color: #000;
-}
-
 #contato {
   text-align: center;
   margin: 3em 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 500px;
 }
 
 #contato h2 {
@@ -134,8 +129,13 @@ body {
   font-size: 1rem;
 }
 
+.btn-primary {
+  background: rgb(19,56,124);
+}
+
 #contato .telefone {
   margin-top: 1rem;
+  color: rgb(19,56,124);
 }
 
 #contato .email {
@@ -147,6 +147,8 @@ footer {
   align-items: center;
   justify-content: center;
   width: 100%;
+  background: rgb(19,56,124);
+  background: radial-gradient(circle, rgba(19,56,124,1) 0%, rgba(19,56,124,1) 50%, rgba(33,37,72,1) 100%);
 }
 
 #footer {
@@ -159,18 +161,20 @@ footer {
 }
 
 #footer img {
-  width: 120px;
+  width: 100px;
   margin-bottom: 1rem;
 }
 
 #footer em {
   font-size: .7rem;
+  color: #fff;
 }
 
 .page-container {
   max-width: 80%;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .nav-link {
@@ -179,6 +183,16 @@ footer {
 
 .nav-link:hover {
   color: rgb(141, 141, 141) !important;
+}
+
+#contato h2 {
+  font-size: 1.5rem;
+  color: #4e61b6;
+}
+
+#contato h3 {
+  font-size: 1rem;
+  color: #919191;
 }
 
 /* ----------------------------------------------
