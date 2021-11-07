@@ -1,0 +1,3 @@
+Disallow: /styles
+Allow: /
+Sitemap: https://mssoftwares.com.br/sitemap.xml
