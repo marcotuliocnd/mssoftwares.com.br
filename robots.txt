@@ -1,3 +1,4 @@
 User-Agent: *
 Allow: /
 Sitemap: https://mssoftwares.com.br/sitemap.xml
+Disallow:
