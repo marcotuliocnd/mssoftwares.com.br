@@ -148,8 +148,6 @@ footer {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: rgb(19,56,124);
-  background: radial-gradient(circle, rgba(19,56,124,1) 0%, rgba(19,56,124,1) 50%, rgba(33,37,72,1) 100%);
 }
 
 #footer {
@@ -168,7 +166,6 @@ footer {
 
 #footer em {
   font-size: .7rem;
-  color: #fff;
 }
 
 .page-container {
@@ -194,6 +191,46 @@ footer {
 #contato h3 {
   font-size: 1rem;
   color: #919191;
+}
+
+#products {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(19,56,124);
+  background: radial-gradient(circle, rgba(19,56,124,1) 0%, rgba(19,56,124,1) 50%, rgba(33,37,72,1) 100%);
+  color: #fff;
+  min-height: 500px;
+  padding: 1rem;
+}
+
+#products h2 {
+  font-size: 1.5rem;
+}
+
+#products h3 {
+  font-size: 1rem;
+}
+
+.products--Grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#mockup {
+  width: 50%;
+}
+
+.text-box {
+  text-align: left;
+  max-width: 300px;
+}
+
+.text-box img {
+  margin-bottom: 1rem;
 }
 
 /* ----------------------------------------------
