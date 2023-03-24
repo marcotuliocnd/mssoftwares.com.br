@@ -213,6 +213,26 @@ footer {
   font-size: 1rem;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  text-align: left;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .flex-row {
+    flex-direction: column !important;
+    text-align: center;
+  }
+}
+
 .products--Grid {
   display: flex;
   flex-direction: row;
